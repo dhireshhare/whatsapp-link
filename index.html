@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>महा सेवा केंद्र</title>
+ <!-- Minimal CSS -->
+ <link rel="stylesheet" href="style.css">
+ <script>
+ // Array of WhatsApp group links
+ const groupLinks = [
+"https://whatsapp.com/channel/0029Vaf7cy9IyPtMrcT2af28",
+"https://whatsapp.com/channel/0029Vaf7cy9IyPtMrcT2af28"
+ ];
+
+ // Function to generate a random index
+ function getRandomIndex(array) {
+   return Math.floor(Math.random() * array.length);
+ }
+
+ // Redirect to a random group link
+ window.location.href = groupLinks[getRandomIndex(groupLinks)];
+ </script>
+</head>
+<body>
+</body>
+</html>
